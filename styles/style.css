@@ -112,7 +112,8 @@ header {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
 }
 
 .main-article img {
@@ -209,6 +210,7 @@ header {
    margin: 20px;
    padding: 20px;
    border: 1px solid #ccc;
+   flex-direction: row;
    }
 
 }
